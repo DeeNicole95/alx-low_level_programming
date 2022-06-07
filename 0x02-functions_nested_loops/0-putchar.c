@@ -4,7 +4,7 @@
  * main - Prints _putchar
  *
  * Return: 0
- */
+ j*/
 <<<<<<< HEAD
 
 int main(voidn)

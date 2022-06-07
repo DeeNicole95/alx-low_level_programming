@@ -4,7 +4,7 @@
  * Return: 0 
  */
 
-int main(void)
+int main(voidn)
 {
 	char puts[7] = "putchar";
 	int i;

@@ -1,19 +1,25 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - entry point
- * Return: 0 
+ * main - Prints _putchar
+ *
+ * Return: 0
  */
+<<<<<<< HEAD
 
 int main(voidn)
+=======
+int main(void)
+>>>>>>> 9f72457d01392413f56dc0a077847c7f907c4c9c
 {
-	char puts[7] = "putchar";
-	int i;
-	int v = '_';
-	putchar(v);
-	for (i = 0; i < 7; i++)
-	{
-		putchar(puts[i]);
-	} 
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }

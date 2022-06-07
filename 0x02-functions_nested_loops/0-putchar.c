@@ -5,12 +5,7 @@
  *
  * Return: 0
  */
-<<<<<<< HEAD
-
-int main(voidn)
-=======
 int main(void)
->>>>>>> 9f72457d01392413f56dc0a077847c7f907c4c9c
 {
 	_putchar('_');
 	_putchar('p');

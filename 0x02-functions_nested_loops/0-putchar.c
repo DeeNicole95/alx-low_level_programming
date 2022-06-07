@@ -1,39 +1,19 @@
-#include "_putchar.c"
-
-
-
+#include <main.h>
 /**
- *
- *  * main - Prints _putchar as a message.
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * main - entry point
+ * Return: 0 
+ */
 
 int main(void)
-
 {
-
-		int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-
-			int count, sz;
-
-
-
-				sz = sizeof(str) / sizeof(int);
-
-					for (count = 0; count < sz; count++)
-
-							{
-
-										_putchar(str[count]);
-
-											}
-
-						_putchar('\n');
-
-							return (0);
-
+	char puts[7] = "putchar";
+	int i;
+	int v = '_';
+	putchar(v);
+	for (i = 0; i < 7; i++)
+	{
+		putchar(puts[i]);
+	} 
+	putchar('\n');
+	return (0);
 }

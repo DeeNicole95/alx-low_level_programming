@@ -4,13 +4,16 @@
  * main - Prints _putchar
  *
  * Return: 0
+<<<<<<< HEAD
  j*/
 <<<<<<< HEAD
 
 int main(voidn)
 =======
+=======
+ */
+>>>>>>> d37995bc447403879564daa024010e77d4a6c572
 int main(void)
->>>>>>> 9f72457d01392413f56dc0a077847c7f907c4c9c
 {
 	_putchar('_');
 	_putchar('p');

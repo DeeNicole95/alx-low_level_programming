@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-nnnn
-=======
 #include <stdio.h>
 
 /**
@@ -41,4 +38,3 @@ int main(void)
 
 	return (0);
 }
->>>>>>> 4b9ff37fda0e2be803d10026cc15ca3d383252ba
